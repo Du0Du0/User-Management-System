@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Roboto&display=swap');
+
+
+:root {
+    --dark: #2b2d42;
+    --light: #adb56d;
+    --border: #333333;
+    --border-btn: #edf2f4;
+}
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.nav-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.border-shadow {
+    border: 1px solid var(--border-btn);
+    box-shadow: 1px 3px 10px #e9ecef;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.text-light {
+    color: var(--light);
+}
+
+.text-gradient {
+    background: linear-gradient(to right, #8e2de2, #e9ecef, #8e2de2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navigation {
+    background-color: rgb(16, 215, 149);
+    padding: 1em 0;
+    width: 100%;
+}
+
+.site-main {
+    margin-top: 6em;
+    font-family: 'Nanum Gothic', sans-serif;
+} 
+
+
+.box-nav {
+    top: 100px;
+}
+
+.container > a {
+    font-size: 1em;
+    padding: 5em 1em;
+}
+
+.site-main .container form {
+    margin: 2em 0;
+}
+
+.table {
+    border-spacing: 0px;
+    width: 100%;
+} 
+
+.table td, .table th{
+    padding: .75em;
+    vertical-align: top;
+    text-align: center;
+    border-top: 1px solid var(--border);
+}
+
+.table td > a.btn {
+    padding: .3em 1em;
+    font-size: 1.1em;
+    margin: 0.2em;
+}
+
+.table tr:hover{
+    background-color: aquamarine;
+}
+
+.table tr:hover td > a{
+    box-shadow: none;
+}
+
+.table th{
+    color: white;
+    background-color: var(--dark);
+    border-color: #32383e;
+}
