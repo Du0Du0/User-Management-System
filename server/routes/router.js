@@ -23,11 +23,11 @@ route.get('/add-user',services.add_user);
 route.get('/update-user',services.update_user);
 
 //API
-route.post('/api/users', controller.create);
-route.get('/api/users', controller.find);
+route.post('/api/users',controller.create);
+route.get('/api/users',controller.find);
 //Update a new identified usr by user id
-route.put('/api/users/:id', controller.update);
+route.put('/api/users/:id',controller.update);
 //Delete a user with specified user id in the request
-route.delete('/api/users/:id', controller.delete);
+route.delete('/api/users/:id',controller.delete);
 
 module.exports = route

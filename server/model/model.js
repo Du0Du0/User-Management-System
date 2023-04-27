@@ -13,6 +13,6 @@ var schema = new mongoose.Schema({
     status : String
 })
     
-const Userdb = mongoose.model('userdb',scheme);
+const Userdb = mongoose.model('userdb',schema);
 
 module.exports = Userdb
